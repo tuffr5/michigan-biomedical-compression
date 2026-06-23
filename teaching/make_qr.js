@@ -10,7 +10,9 @@ const OUT = path.join(__dirname);
 const materials = [
   { name: 'syllabus',  file: 'VPAT4XXX-6XXX_syllabus.pdf' },
   { name: 'cs4347',    file: 'txstate_cs4347.pdf' },
-  { name: 'onepath_demo', file: 'onepath_demo.mp4' },
+  { name: 'collaboration_plan', file: 'collaboration_plan.pdf' },
+  // demo points at the HTML player page (not the raw mp4) so it plays inline on iOS
+  { name: 'onepath_demo', file: 'onepath_demo.html' },
 ];
 
 (async () => {
